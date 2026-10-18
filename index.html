@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SONORA - Musique</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">SONO<span>RA</span> ♪</a>
+    <p>Ta musique, ton univers</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Bienvenue sur SONORA</p>
+        <h1>Appuie sur play.<br>Change d'univers.</h1>
+        <p class="description">
+          Rap, anime, K-pop, moderne ou classique :
+          choisis ton style et découvre tes musiques préférées.
+        </p>
+      </div>
+      <div class="disque">♫</div>
+    </section>
+
+    <section>
+      <h2>Choisis ton univers</h2>
+
+      <div class="genres">
+        <button class="genre active" data-genre="Tous">✨ Tout</button>
+        <button class="genre" data-genre="Rap">🎤 Rap</button>
+        <button class="genre" data-genre="Anime">🌸 Anime</button>
+        <button class="genre" data-genre="K-pop">💜 K-pop</button>
+        <button class="genre" data-genre="Moderne">⚡ Moderne</button>
+        <button class="genre" data-genre="Classique">🎻 Classique</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="playlist-title">À découvrir</h2>
+
+      <input
+        id="search"
+        type="search"
+        placeholder="Rechercher une musique ou un anime..."
+      >
+
+      <div id="tracks" class="tracks"></div>
+    </section>
+  </main>
+
+  <footer>
+    SONORA © 2026 — La musique rassemble.
+  </footer>
+
+</body>
+</html>
